@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0d1b2a, #1b2631);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #1b2631;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    max-width: 600px; /* Limit the width for better visibility */
+    margin: 20px; /* Add margin for responsiveness */
+}
+
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 2.5em;
+    color: #00bcd4;
+}
+
+.book-cover {
+    width: 100%; /* Make the cover responsive */
+    height: auto;
+    max-width: 250px; /* Limit the size of the cover */
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.book-cover:hover {
+    transform: scale(1.05);
+}
+
+.description {
+    margin: 20px 0;
+    color: #ffffff;
+    font-size: 1.1em; /* Slightly smaller font for readability */
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0097a7;
+    transform: translateY(-2px);
+}
